@@ -25,13 +25,17 @@ console.log(yNew, typeof yNew);
 console.log(zNew, typeof zNew);
 
 //working with constants -- const
-
-let pi = 3.14; 
-let radius; 
+//extra security measure. 
+const PI = 3.14; 
+let radius; 23
 let circumference; 
 
-radius = window.prompt("Enter the raduis of the circle? "); 
+
 radius = Number(radius); 
 
-circumference = 2 * pi * radius; 
-console.log(circumference); 
+circumference = 2 * PI * radius; 
+
+
+document.getElementById("submitTwo").onclick = function(){
+    
+}; 
